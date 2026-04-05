@@ -1,7 +1,3 @@
-Here is your content converted into a clean, GitHub-ready Markdown file:
-
----
-
 ```markdown
 # 🍎 Fruits-360 Neural Network Compression Pipeline
 
@@ -15,6 +11,7 @@ Achieves **~9× storage compression** with **~3.9% Top-1 accuracy drop**. :conte
 
 ```
 
+```markdown
 project-root/
 │
 ├── config.py                          # Device selection (CUDA / MPS / CPU)
@@ -47,7 +44,7 @@ project-root/
 ├── model.pth                      # Stage 1 output: pruned float32 checkpoint
 └── compressed.npz                 # Stage 3 output: Huffman-encoded archive
 
-````
+```
 
 ---
 
@@ -193,13 +190,3 @@ model.to(device).eval()
 > Note: Accuracy loss comes from pruning + quantization only.
 
 ---
-
-```
-
----
-
-If you want, I can also:
-- generate a `README.md` with badges and visuals  
-- add diagrams explaining the compression pipeline  
-- or format this for a portfolio/project submission
-```
