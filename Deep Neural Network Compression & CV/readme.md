@@ -1,3 +1,0 @@
-# Deep Neural Network Compression and CV
-
-Project Readme .....
