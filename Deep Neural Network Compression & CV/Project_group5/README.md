@@ -19,7 +19,8 @@ Copy your trained weights file into the `compressed_models/` folder and make sur
 WEIGHTS_PATH = 'compressed_models/final_model_weights.pth'
 ```
 
-### 3. (optional) Run the compression pipeline (compression will take a lot of time sugested to directly go to next step, compressed files already present for convenience)
+### 3. (optional) Run the compression pipeline 
+(compression will take a lot of time sugested to directly go to next step, compressed files already present for convenience)
 This loads the trained weights and runs all 3 stages (Prune → Quantize → Huffman), saving the compressed archive:
 ```bash
 python main.py --mode compress
